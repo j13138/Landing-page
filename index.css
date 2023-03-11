@@ -1,0 +1,77 @@
+.top{
+    display: flex;
+    
+}
+
+.logo{
+    flex: 1;
+    margin-left: 150px;
+}
+
+.links{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;   
+}
+
+.links a{
+    font-size: 22px;
+    text-decoration: none;
+    color: lightgray;
+}
+
+.links a:hover{
+    color: white;
+}
+
+.box1 {
+    background-color: #1f2937;
+    color: white;
+}
+
+.bottom{
+    display: flex;
+}
+
+.left{
+    flex:1; 
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: auto;
+}
+
+.header{
+    font-size: 35px;
+    font-weight: 900;
+    padding-left: 150px;
+    padding-right: 300px;
+}
+.left p{
+    font-size: 16px;
+    padding-left: 150px;
+    padding-right: 300px;
+}
+
+.left button{
+    margin-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #0a95ff;
+    border-radius: 10%;
+    border: none;
+    color: white;
+    font-weight: 900;    
+}
+
+.right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+}
+
